@@ -7,9 +7,9 @@ let x = parseInt(prompt("Insira um número: "));
 
 if (x % 2 == 0)
     {
-        console.log("Número par");
+        alert("O número " + x + " é par");
     }
 else
     {
-        console.log("Número ímpar");
+        alert("O número " + x + " é ímpar");
     }

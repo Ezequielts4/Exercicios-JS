@@ -7,11 +7,12 @@ Exiba uma mensagem indicando se a pessoa é maior de idade ou não.
 
 let nasc = parseInt(prompt("Insira apenas o ano de seu nascimento: "));
 
+/* let anoAtual = new Date().getFullYear(); */
 if (2024 - nasc >= 18)
     {
-        console.log("MAIOR de idade!");
+        alert("MAIOR de idade!");
     }
 else
     {
-        console.log("MENOR de idade!");
+        alert("MENOR de idade!");
     }

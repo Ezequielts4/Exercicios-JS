@@ -1,4 +1,4 @@
-/* 
+/*
 Exercício 1: Verificação de login
 
 Escreva um programa que solicita ao usuário um nome de usuário e uma senha. 
@@ -16,7 +16,7 @@ if (nome == "admin" && senha == "senha123")
     } 
 else
     {
-        console.log("Verifique se os dados estão corretos...");
+        alert("Verifique se os dados estão corretos...");
     }
 
 

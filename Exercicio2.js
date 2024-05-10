@@ -9,33 +9,72 @@ let dia = prompt("Insira um número de 1 a 7 para saber o dia da semana!")
 
 if (dia == 1) 
     {
-        console.log("Hoje é Segunda-feira");
+        alert("Hoje é Segunda-feira");
     }
     else if ( dia == 2)
     {
-        console.log("Hoje é Terça-feira");
+        alert("Hoje é Terça-feira");
     }
     else if ( dia == 3)
     {
-        console.log("Hoje é Quarta-feira");
+        alert("Hoje é Quarta-feira");
     }
     else if ( dia == 4)
     {
-        console.log("Hoje é Quinta-feira");
+        alert("Hoje é Quinta-feira");
     }
     else if ( dia == 5)
     {
-        console.log("Hoje é Sexta-feira");
+        alert("Hoje é Sexta-feira");
     }
     else if ( dia == 6)
     {
-        console.log("Hoje é Sábado");
+        alert("Hoje é Sábado");
     }
     else if ( dia == 7)
     {
-        console.log("Hoje é Domingo");
+        alert("Hoje é Domingo");
     }
 else 
 {
-    console.log("Insira um número correspondente ao dia da semana!");
+    alert("Insira um número correspondente ao dia da semana!");
 }
+
+/* opção com switch - opção com switch - opção com switch - opção com switch - opção com switch - opção com switch - opção com switch */
+
+/* let diaSemana = prompt("Insira um número de 1 a 7 para saber o dia da semana");
+
+switch (diaSemana) {
+    case "1":
+        console.log("Segunda-feira")
+        break;
+
+    case "2":
+        console.log("Terça-feira")
+        break;
+        
+    case "3":
+        console.log("Quarta-feira")
+        break;
+
+    case "4":
+        console.log("Quinta-feira")
+        break;
+
+    case "5":
+        console.log("Sexta-feira")
+        break;
+
+    case "6":
+        console.log("Sábado")
+        break;
+
+    case "7":
+        console.log("Domingo")
+        break;
+
+    default:
+        console.log("Insira um número correspondente ao dia da semana!")
+        break;
+}
+*/

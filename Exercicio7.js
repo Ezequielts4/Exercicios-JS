@@ -15,22 +15,22 @@ let valor = parseFloat(prompt("Insira o valor total da sua compra: "));
 
 if (valor <= 100.00)
     {
-        console.log("Sem desconto...");
-        console.log("Valor a pagar: R$ " + valor);
+        alert("Sem desconto...");
+        alert("Valor a pagar: R$ " + valor);
     }
 
 else if (valor > 100.00 && valor <= 200.00)
     {
-        console.log("Desconto de 10%");
+        alert("Desconto de 10%");
         let desconto = valor * (10 / 100);
         let valorFinal = valor - desconto;
-        console.log("Valor a pagar: R$ " + valorFinal.toFixed(2) + " reais");
+        alert("Valor a pagar: R$ " + valorFinal.toFixed(2) + " reais");
     }
 
 else
     {
-        console.log("Desconto de 20%");
+        alert("Desconto de 20%");
         let desconto = valor * (20 / 100);
         let valorFinal = valor - desconto;
-        console.log("Valor a pagar: R$ " + valorFinal.toFixed(2) + " reais");
+        alert("Valor a pagar: R$ " + valorFinal.toFixed(2) + " reais");
     }

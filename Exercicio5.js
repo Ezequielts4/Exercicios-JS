@@ -5,15 +5,39 @@ Escreva um programa que solicita três números ao usuário e verifica se eles e
 Exibindo uma mensagem indicando se os números estão em ordem crescente ou não.
 */
 
-let a = parseInt(prompt("Insira o primeiro número: "));
-let b = parseInt(prompt("Insira o segundo número: "));
-let c = parseInt(prompt("Insira o terceiro número: "));
+let a = parseFloat(prompt("Insira o primeiro número: "));
+let b = parseFloat(prompt("Insira o segundo número: "));
+let c = parseFloat(prompt("Insira o terceiro número: "));
 
 if (a < b && b < c)
     {
-        console.log("Estão em ordem crescente!");
+        alert("Estão em ordem crescente!");
     }
 else
     {
-        console.log("NÃO estão em ordem crescente!");
+        alert("Não estão em ordem crescente!");
     }
+
+/* DESAFIO - DESAFIO - DESAFIO - DESAFIO - DESAFIO - DESAFIO - DESAFIO - DESAFIO */
+
+/* Informe se os números estão em ordem crescente, decrescente ou não ordenado */
+
+/*
+let a = parseFloat(prompt("Insira o primeiro número: "));
+let b = parseFloat(prompt("Insira o segundo número: "));
+let c = parseFloat(prompt("Insira o terceiro número: "));
+
+if (a < b && b < c)
+    {
+        alert("Estão em ordem crescente!");
+    }
+else if (a > b && b > c)
+    {
+        alert("Estão em ordem decrescente!");
+    }
+
+else
+    {
+        alert("Ordem não ordenada!")
+    }
+*/
