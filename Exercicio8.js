@@ -22,30 +22,30 @@ console.log(imc);
 
 if (imc < 18.5)
     {
-        alert("Abaixo do peso");
+        alert("Seu IMC é de: " + imc.toFixed(2) + "\nClassificação: Abaixo do Peso");
     }
 
 else if (imc >= 18.5 && imc <= 24.9)
     {
-        alert("Peso normal");
+        alert("Seu IMC é de: " + imc.toFixed(2) + "\nClassificação: Peso Normal");
     }
 
 else if (imc >= 25.0 && imc <= 29.9)
     {
-        alert("Sobrepeso");
+        alert("Seu IMC é de: " + imc.toFixed(2) + "\nClassificação: Sobrepeso");
     }
 
 else if (imc >= 30.0 && imc <= 34.9)
     {
-        alert("Obesidade grau 1");
+        alert("Seu IMC é de: " + imc.toFixed(2) + "\nClassificação: Obesidade grau 1");
     }
 
 else if (imc >= 35.0 && imc <= 39.9)
     {
-        alert("Obesidade grau 2");
+        alert("Seu IMC é de: " + imc.toFixed(2) + "\nClassificação: Obesidade grau 2");
     }
 
 else
     {
-        alert("Obesidade grau 3");
+        alert("Seu IMC é de: " + imc.toFixed(2) + "\nClassificação: Obesidade grau 3");
     }
